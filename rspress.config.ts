@@ -12,7 +12,7 @@ export default defineConfig({
   },
   themeConfig: {
     socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/' },
+      { icon: 'github', mode: 'link', content: 'https://github.com/MGRookie' },
     ],
   },
 });
