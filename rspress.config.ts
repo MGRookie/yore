@@ -1,18 +1,16 @@
-import * as path from 'path';
-import { defineConfig } from 'rspress/config';
+import * as path from 'path'
+import { defineConfig } from 'rspress/config'
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'In Days of Yore',
   description: '言念君子，温其如玉',
-  icon: '/rspress-icon.png',
+  icon: '/yore-logo.svg',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/yore-logo.svg',
+    dark: '/yore-logo.svg',
   },
   themeConfig: {
-    socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/MGRookie' },
-    ],
+    socialLinks: [{ icon: 'github', mode: 'link', content: 'https://github.com/MGRookie' }],
   },
-});
+})
